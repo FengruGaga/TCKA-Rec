@@ -1,0 +1,27 @@
+TCKA-Rec
+Copyright (c) 2026 Fengru Li
+
+This repository contains original code and code adapted from third parties.
+
+1. MPT-Rec backbone, baseline classes, and training utilities are adapted from
+   BAI-LAB/MPT-Rec (three_task branch):
+   https://github.com/BAI-LAB/MPT-Rec
+
+   The upstream repository does not declare a license. The original authors
+   retain all rights in their code. The MIT license in LICENSE applies only to
+   original code authored for TCKA-Rec and does not relicense upstream-derived
+   files.
+
+2. AdaTT is the official AdaTT-sp implementation from
+   facebookresearch/AdaTT at commit 0efdd821179029bbd599043e353841c1afd3fcfa:
+   https://github.com/facebookresearch/AdaTT
+
+   It is distributed under the MIT license reproduced in
+   tcka_rec/vendor/LICENSE.AdaTT.
+
+3. Datasets are not included. Census-income (KDD), Ali-CCP, and KuaiRand-Pure
+   remain subject to the terms of their original providers:
+
+   - Census-income: https://archive.ics.uci.edu/dataset/117/census+income+kdd
+   - Ali-CCP: https://tianchi.aliyun.com/dataset/408
+   - KuaiRand-Pure: https://zenodo.org/records/10439422
